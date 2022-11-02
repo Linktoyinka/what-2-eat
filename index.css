@@ -145,6 +145,10 @@ section {
     cursor: pointer;
 }
 
+.hero-form .box {
+    width: 50%;
+}
+
 .box{
     height: 58px;
     outline: none;
@@ -343,5 +347,79 @@ section {
     width: 100%;
 }
 
+.blog-middle img {
+    width: 100%;
+}
+
 
 /* BLOG SECTION STYLE ENDS */
+
+/* CONTACT SECTION STYLE STARTS */
+
+.contact {
+    background-color: var(--grey-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-left, .contact-right {
+    width: 50%;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 43%;
+    border-radius: 10px;
+}
+
+.box-2 {
+    height: 215px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+form div input {
+    margin: 20px 0;
+}
+
+.contact-right {
+    text-align: center;
+}
+
+.contact-right img {
+    width: 80%;
+}
+
+
+/* CONTACT  SECTION STYLE ENDS */
+
+
+/* FOOTER STYLE STARTS */
+
+footer {
+    padding: 1% 10%;
+    background-color: var(--primary-color);
+
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-copy {
+    text-align: center;
+}
+/* FOOTER STYLE ENDS */
