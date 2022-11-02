@@ -47,6 +47,12 @@ h4 {
     font-size: 14px;
 }
 
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1B1C21;
+    font-size: 12px;
+}
+
 /* HEADING DECLARATION ENDS */
 
 /* LINK STYLE STARTS */
@@ -296,3 +302,41 @@ section {
 
 
 /* PRODUCT SECTION STYLE ENDS */
+
+/* BLOG SECTION STYLE STARTS */
+.blog-1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.blog-left, .blog-right {
+    width: 23%;
+}
+
+.blog-middle {
+    width: 50%;
+}
+
+.blog-card {
+    width: 100%;
+}
+
+.blog-card div, .blog-card-2 div {
+    padding: 0 10px;
+}
+
+.blog-card h5, .blog-card-2 h5 {
+    margin-top: 5px;
+}
+
+.blog-card-2 {
+    margin-top: 50px;
+}
+
+.blog-card img, .blog-card-2 img {
+    width: 100%;
+}
+
+
+/* BLOG SECTION STYLE ENDS */
