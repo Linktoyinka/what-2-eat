@@ -16,6 +16,10 @@ font-family: 'Squada One', cursive; */
     --grey-color: #F0FAF7;
 }
 
+body {
+    width: 100%;
+}
+
 /* HEADING DECLARATION */
 h1 {
     font-size: 70px;
@@ -83,12 +87,12 @@ header {
 }
 
 nav {
-    display: flex;
+    display: inline-flex;
 }
 
 nav li {
     list-style: none;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .icon {
@@ -111,8 +115,6 @@ section {
 
 /* HERO SECTION STYLE STARTS */
 .hero {
-    height: 400px;
-    top: 0;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -123,10 +125,13 @@ section {
     width: 50%;
 }
 
+.right {    
+    text-align: center;
+}
+
 /* hero right hand side */
 .right img {
-    width: 60%;
-    text-align: center;
+    width: 100%;
 }
 /* hero right hand ends */
 
@@ -383,6 +388,13 @@ form div {
     border-radius: 10px;
 }
 
+.box-a {
+    outline: none;
+    border: 1px solid var(--primary-color);
+    font-size: 14px;
+    padding: 10px;
+}
+
 .contact-form {
     display: flex;
     justify-content: space-between;
@@ -423,3 +435,236 @@ footer .footer-copy {
     text-align: center;
 }
 /* FOOTER STYLE ENDS */
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1115px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .ratt {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 965px) {
+    .food-items {
+        flex-wrap: wrap;
+        /* justify-content: flex-start;
+        gap: 25px; */
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .ratt {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .card {
+        width: 40%;
+    }
+
+    .food-items {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ratt {
+        width: 60%;
+    }
+
+    .blog-1 {
+        flex-wrap: wrap;
+    }
+
+    .blog-left {
+        width: 45%;
+        order: 1;
+    }
+
+    .blog-right {
+        width: 45%;
+        order: 2;
+    }
+
+    .blog-middle {
+        margin-top: 20px;
+        order: 3;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .food-items {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .contact-form div {
+        flex-direction: column;
+    }
+
+    .box-1, .box-2 {
+        width: 100%;
+    }
+
+    .contact-form input {
+        margin-top: 5px;
+    }
+
+    .contact-right img {
+        width: 100%;
+    }
+
+    .contact-right {
+        margin-left: 20px;
+    }
+
+    .contact-left {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .btn-filter {
+        padding: 9px 20px;
+    }
+
+    .box-filter {
+        padding: 9px 13px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .ratt {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .footer-copy p {
+        font-size: 15px;
+    }
+
+    .contact-right {
+        display: none;
+    }
+
+    .contact-left {
+        text-align: center;
+        width: 100%;
+    }
+
+    .box-1, .box-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 48%;
+    }
+
+    .blog-left, .blog-right {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .ratt {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .btn-filter {
+        padding: 5px 15px;
+        font-weight: 300;
+    }
+
+    .box-filter {
+        padding: 5px 13px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+
+    .hero .left, .hero .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .left {
+        order: 1;
+    }
+
+    .right img {
+        width: 70%;
+    }
+}
+
+@media screen (max-width: 496px) {
+    h1 {
+        font-size: 20px
+    }
+    h2 {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .btn-filter {
+        padding: 3px 12px;
+        font-size: 13px;
+    }
+
+    .box-filter {
+        font-size: 13px;
+        padding: 3px 10px;
+    }
+
+    .ratt {
+        width: 100%;
+    }
+
+    .rat, .min {
+        padding: 1px;
+    }
+
+    .rating {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
