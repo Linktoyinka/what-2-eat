@@ -304,6 +304,11 @@ section {
 /* PRODUCT SECTION STYLE ENDS */
 
 /* BLOG SECTION STYLE STARTS */
+
+.blog h2 {
+    margin-bottom: 15px;
+}
+
 .blog-1 {
     display: flex;
     justify-content: space-between;
