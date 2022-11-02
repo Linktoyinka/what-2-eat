@@ -327,7 +327,7 @@ section {
     width: 100%;
 }
 
-.blog-card div, .blog-card-2 div {
+.blog-card div, .blog-card-2 div, .blog-middle div {
     padding: 0 10px;
 }
 
