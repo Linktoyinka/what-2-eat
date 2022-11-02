@@ -278,5 +278,21 @@ section {
     cursor: pointer;
 }
 
+.btn-con {
+    text-align: center;
+}
+
+.btn {
+    padding: 13px 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid var(--yello-color);
+    margin: 0 -2.5px;
+    cursor: pointer;
+    background-color: var(--grey-color);
+    border-radius: 15px;
+}
+
 
 /* PRODUCT SECTION STYLE ENDS */
