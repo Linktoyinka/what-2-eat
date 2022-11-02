@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Squada+One&display=swap');
+
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Squada One', cursive; */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #1AC073;
+    --secondary-color: #2EBF91;
+    --yello-color: #F3BA00;
+    --grey-color: #F0FAF7;
+}
+
+/* HEADING DECLARATION */
+h1 {
+    font-size: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--grey-color);
+}
+
+p {
+    font-size: 18px;
+    color: var(--grey-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    font-size: 14px;
+}
+
+/* HEADING DECLARATION ENDS */
+
+/* LINK STYLE STARTS */
+a {
+    text-decoration: none;
+    color: var(--grey-color);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+/* LINK STYLE ENDS */
+
+/* HEADER STYLE STARTS */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 0px 10%;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Squada One', cursive;
+    font-size: 32px;
+    color: var(--grey-color);
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon img {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* HEADER STYLE ENDS */
+
+/* SECTION STYLE STARTS */
+section {
+    padding: 4% 10%;
+}
+
+/* SECTION STYLE ENDS */
+
+/* HERO SECTION STYLE STARTS */
+.hero {
+    height: 400px;
+    top: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .left, .hero .right {
+    width: 50%;
+}
+
+/* hero right hand side */
+.right img {
+    width: 60%;
+    text-align: center;
+}
+/* hero right hand ends */
+
+/* hero left hand */
+.btn-search {
+    height: 58px;
+    width: 112px;
+    background-color: var(--yello-color);
+    outline: none;
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: var(--grey-color);
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+
+.box{
+    height: 58px;
+    outline: none;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0 15px;
+    font-size: 20px;
+    margin-right: -4px;
+}
+
+.left form, .left p {
+    margin: 15px 0;
+}
+
+/* HERO SECTION STYLE ENDS */
+
+
+/* PRODUCT SECTION STYLE STARTS */
+
+.products {
+    background-color: var(--grey-color);
+}
+
+.products div {
+    margin: 10px 0;
+}
+
+.btn-filter {
+    padding: 13px 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid var(--yello-color);
+    margin: 0 -2.5px;
+    cursor: pointer;
+    background-color: var(--grey-color);
+}
+
+.b1 {
+    background-color: var(--yello-color);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.b2 {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-filter:hover {
+    background-color: var(--yello-color);
+}
+
+.btn-filter:active {
+    background-color: var(--yello-color);
+}
+
+/* filter box */
+.box-filter {
+    font-size: 16px;
+    border: 1px solid var(--yello-color);
+    background-color: var(--grey-color);
+    border-radius: 6px;
+    padding: 10px 13px;
+    outline: none;
+}
+
+.products select {
+    margin: 15px 0;
+}
+
+/* food items */
+
+.food-items {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.name, .rating {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    align-items: center;
+}
+
+.rat-dil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ratt {
+    width: 70%;
+}
+
+.rat {
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey-color);
+    padding: 2% 7%;
+    border-radius: 5px;
+    /* margin: 0 10px; */
+}
+
+.min {
+    background-color: var(--grey-color);
+    padding: 2% 7%;
+    border-radius: 5px;
+}
+
+.rat img {
+    margin-right: 2px;
+}
+
+.rat h4 {
+    margin-left: 2px;
+}
+
+.add-to-cart img {
+    cursor: pointer;
+}
+
+
+/* PRODUCT SECTION STYLE ENDS */

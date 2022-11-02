@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What2Eat</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- HEADER STARTS -->
+    <header>
+
+        <!-- LOGO -->
+        <p class="logo">
+            what2eat
+        </p>
+        <!-- LOGO ENDS -->
+
+        <!-- NAV -->
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </nav>
+        <!-- NAV ENDS -->
+
+        <!-- NAV ICONS -->
+        <div class="icon">
+            <img src="images/search ico.svg" alt="search icon">
+            <img src="images/cart ico.svg" alt="cart icon">
+        </div>
+        <!-- NAV ICON ENDS -->
+
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <!-- HERO LEFT HAND SIDE -->
+        <div class="left">
+            <h1>
+                Authentic Home food in UK
+            </h1>
+
+            <p>
+                What2Eat is a courier service in which authentic home cook food is delivered to a customer.
+            </p>
+
+            <!-- PRODUCT SEARCH -->
+            <form action="">
+                <input class="box" type="search" id="search">
+                <input class="btn-search" type="button" value="Search">
+            </form>
+        </div>
+        <!-- HERO LEFT HAND SIDE ENDS -->
+
+        <!-- HERO RIGHT HAND SIDE -->
+        <div class="left">
+            <img src="images/cuate.png" alt="">
+        </div>
+        <!-- HERO RIGHT HND SIDE ENDS -->
+
+    </section>
+    <!-- HERO SECTION ENDS -->
+
+    <!-- PRODUCT SECTION -->
+    <section class="products">
+        <h2>
+            Home Kitchen
+        </h2>
+
+        <!-- FILTER BUTTONS -->
+        <div>
+            <input selected class="btn-filter b1" type="button" value="All">
+            <input class="btn-filter" type="button" value="Button">
+            <input class="btn-filter" type="button" value="Free Delivery">
+            <input class="btn-filter" type="button" value="New">
+            <input class="btn-filter b2" type="button" value="Coming">
+        </div>
+
+
+        <!-- FILTER SELECTION -->
+        <select class="box-filter" name="filter" id="filter">
+            <option value="rice">Food filter</option>
+            <option value="rice">Rice</option>
+            <option value="rice">Beans</option>
+            <option value="rice">Garri</option>
+            <option value="rice">Cassava</option>
+            <option value="rice">Dodo</option>
+        </select>
+
+        <div class="food-items">
+            <div class="card">
+
+                <!-- food image -->
+                <img src="images/food/1.png" alt="food-items">
+
+                <!-- food name and price -->
+                <div class="name">
+                    <h3>
+                        Home made pizza
+                    </h3>
+                    <h3>
+                        $19
+                    </h3>
+                </div>
+
+                <!-- rating, delivery time, add to cart -->
+                <div class="rating">
+                    <div class="rat-dil ratt">
+                        <div class="rat">
+                            <img src="images/food/Vector.svg" alt="star"> 
+                            <h4>
+                                4.7
+                            </h4>
+                        </div>
+                        <h4 class="min">
+                            50-79 min
+                        </h4>
+                    </div>
+                    
+                    <div class="add-to-cart">
+                        <img src="images/food/Card.svg" alt="add to cart">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
