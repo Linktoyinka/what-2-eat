@@ -672,3 +672,19 @@ footer .footer-copy {
         width: 80%;
     }
 }
+
+@media screen and (max-width: 352px) {
+    .btn-filter {
+        padding: 1px 8px;
+        font-size: 12px;
+    }
+
+    .box-filter {
+        font-size: 12px;
+        padding: 1px 8px;
+    }
+
+    section {
+        padding: 2% 2%;
+    }
+}
