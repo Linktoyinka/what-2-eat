@@ -137,32 +137,26 @@ section {
 
 /* hero left hand */
 .btn-search {
-    height: 58px;
-    width: 112px;
+    height: 50px;
+    padding: 10px;
     background-color: var(--yello-color);
     outline: none;
-    border: 0;
+    border: 1px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: var(--grey-color);
-    font-size: 16px;
+    width: 25%;
+    font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     cursor: pointer;
+    
 }
 
-.hero-form .box {
-    width: 50%;
-}
-
-.box{
-    height: 58px;
-    outline: none;
-    border: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 0 15px;
-    font-size: 20px;
-    margin-right: -4px;
+.box-h{
+    height: 52px;
+    border-radius: 10px 0px 0 10px;
+    margin-right: -5px;
+    width: 60%;
 }
 
 .left form, .left p {
@@ -300,10 +294,9 @@ section {
 .btn {
     padding: 13px 40px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 600;
     border: 1px solid var(--yello-color);
-    margin: 0 -2.5px;
     cursor: pointer;
     background-color: var(--grey-color);
     border-radius: 15px;
@@ -560,6 +553,12 @@ footer .footer-copy {
 }
 
 @media screen and (max-width: 630px) {
+
+    .btn {
+        padding: 3% 6%;
+        font-size: 90%;
+    }
+    
     nav {
         display: none;
     }
@@ -672,31 +671,4 @@ footer .footer-copy {
     .ratt {
         width: 80%;
     }
-}
-
-/* @media screen and (max-width: 402px) {
-    .btn-filter {
-        padding: 2px 8px;
-        font-size: 10px;
-    }
-
-    .box-filter {
-        font-size: 10px;
-        padding: 2px 8px;
-    } */
-}
-
-/* @media screen and (max-width: 461px) {
-    .ratt {
-        width: 100%;
-    }
-
-    .rat, .min {
-        padding: 1px;
-    }
-
-    .rating {
-        flex-wrap: wrap;
-        flex-direction: column;
-    } */
 }
