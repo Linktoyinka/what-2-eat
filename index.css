@@ -587,6 +587,9 @@ footer .footer-copy {
 }
 
 @media screen and (max-width: 600px) {
+    section {
+        padding: 4% 4%;
+    }
     .card {
         width: 48%;
     }
@@ -603,14 +606,14 @@ footer .footer-copy {
 }
 
 @media screen and (max-width: 558px) {
-    .btn-filter {
+    /* .btn-filter {
         padding: 5px 15px;
         font-weight: 300;
     }
 
     .box-filter {
         padding: 5px 13px;
-    }
+    } */
 
     .hero {
         flex-wrap: wrap;
@@ -652,7 +655,7 @@ footer .footer-copy {
         width: 75%;
     }
 
-    .btn-filter {
+    /* .btn-filter {
         padding: 3px 12px;
         font-size: 13px;
     }
@@ -660,7 +663,7 @@ footer .footer-copy {
     .box-filter {
         font-size: 13px;
         padding: 3px 10px;
-    }
+    } */
    
 }
 
@@ -670,7 +673,7 @@ footer .footer-copy {
     }
 }
 
-@media screen and (max-width: 402px) {
+/* @media screen and (max-width: 402px) {
     .btn-filter {
         padding: 2px 8px;
         font-size: 10px;
@@ -679,7 +682,7 @@ footer .footer-copy {
     .box-filter {
         font-size: 10px;
         padding: 2px 8px;
-    }
+    } */
 }
 
 /* @media screen and (max-width: 461px) {
