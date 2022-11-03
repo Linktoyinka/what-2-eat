@@ -655,7 +655,7 @@ footer .footer-copy {
         width: 75%;
     }
 
-    /* .btn-filter {
+    .btn-filter {
         padding: 3px 12px;
         font-size: 13px;
     }
@@ -663,8 +663,9 @@ footer .footer-copy {
     .box-filter {
         font-size: 13px;
         padding: 3px 10px;
-    } */
-   
+    }
+
+
 }
 
 @media screen and (max-width: 425px) {
