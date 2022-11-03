@@ -606,14 +606,14 @@ footer .footer-copy {
 }
 
 @media screen and (max-width: 558px) {
-    /* .btn-filter {
+    .btn-filter {
         padding: 5px 15px;
         font-weight: 300;
     }
 
     .box-filter {
         padding: 5px 13px;
-    } */
+    }
 
     .hero {
         flex-wrap: wrap;
